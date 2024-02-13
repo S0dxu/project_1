@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll(".navbar a, .navbar-2 a");
+    const navLinks = document.querySelectorAll(".navbar a, .navbar-2 .social .return a");
 
     navLinks.forEach(function(link) {
         link.addEventListener("click", function(event) {
@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
-
 });
 
 document.addEventListener("DOMContentLoaded", function() {
