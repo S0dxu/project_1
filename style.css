@@ -726,15 +726,14 @@ body {
 
     .navbar-2 {
         display: flex;
+        justify-content: space-between;
+        align-items: top;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
-        position: relative;
     }
 
-    .social .return {
-        display: none;
+    .navbar-2 .social .return h2 {
+        width: 115px;
     }
 
     .navbar-2 .social h2 {
