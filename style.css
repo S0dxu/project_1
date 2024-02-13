@@ -724,8 +724,63 @@ body {
         color: rgb(255, 170, 43);
     }
 
+    .navbar-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
     .social .return {
         display: none;
+    }
+
+    .navbar-2 .social h2 {
+        font-size: 16px;
+        width: 110px;
+        margin-bottom: -10px;
+    }
+
+    .navbar-2 .social {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-2 .social ul li {
+        left: -21%;
+        position: relative;
+    }
+
+    .navbar-2 .social span {
+        font-size: 16px;
+    }
+
+    .navbar-2 .contact h2 {
+        font-size: 16px;
+        width: 130px;
+        margin-bottom: -10px;
+    }
+
+    .navbar-2 .contact {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-2 .contact ul li {
+        left: -12%;
+        position: relative;
+    }
+
+    .navbar-2 .social ul li a {
+        font-size: 12px;
+    }
+
+    .navbar-2 .contact ul li a {
+        font-size: 12px;
     }
 }
 
